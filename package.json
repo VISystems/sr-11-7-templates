@@ -1,0 +1,21 @@
+{
+  "name": "@visystems/sr-11-7-templates",
+  "version": "0.1.0",
+  "description": "SR 11-7 / OCC 2011-12 model risk documentation templates for Claude deployments",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": { "sr-11-7-scaffold": "./dist/cli.mjs" },
+  "main": "./dist/index.mjs",
+  "exports": { ".": { "import": "./dist/index.mjs" } },
+  "files": ["dist", "templates", "examples", "LICENSE", "README.md"],
+  "engines": { "node": ">=22.0.0" },
+  "scripts": { "build": "tsup", "typecheck": "tsc --noEmit", "test": "vitest run" },
+  "dependencies": { "citty": "^0.2.2", "yaml": "^2.7.0" },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.2",
+    "vitest": "^3.1.0"
+  },
+  "publishConfig": { "access": "public" }
+}
