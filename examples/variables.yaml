@@ -1,0 +1,18 @@
+# Example variables for SR 11-7 template scaffolding
+# Customize these for your model provider
+
+# Provider identification
+model_provider: "Anthropic"
+model_family: "Claude"
+
+# Model details
+model_name: "Customer Support Agent"
+model_version: "claude-sonnet-4-6"
+business_unit: "Engineering"
+model_owner: "Jane Doe"
+risk_tier: "Tier 2 - Moderate"
+
+# Multi-provider example:
+# model_provider: "OpenAI"
+# model_family: "GPT"
+# model_version: "gpt-4o"

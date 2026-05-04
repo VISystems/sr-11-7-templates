@@ -13,7 +13,7 @@ version: "1.0"
 |-------|-------|
 | Model Name | {{model_name}} |
 | Model ID | {{model_id}} |
-| Model Provider | Anthropic (Claude) |
+| Model Provider | {{model_provider}} |
 | Model Version | {{model_version}} |
 | API Endpoint | {{api_endpoint}} |
 | Deployment Date | {{deployment_date}} |
@@ -36,7 +36,7 @@ version: "1.0"
 
 | Component | Details |
 |-----------|---------|
-| Model family | Claude (Anthropic) |
+| Model family | {{model_family}} |
 | Specific model | {{model_version}} |
 | Context window | {{context_window}} tokens |
 | Max output | {{max_output}} tokens |

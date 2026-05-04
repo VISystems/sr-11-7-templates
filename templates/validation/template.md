@@ -25,7 +25,7 @@ version: "1.0"
 ### 2.2 Architecture Appropriateness
 - Task suitability for LLM: {{task_suitability}}
 - Alternative approaches considered: {{alternatives}}
-- Claude version selection rationale: {{version_rationale}}
+- {{model_family}} version selection rationale: {{version_rationale}}
 
 ## 3. Outcome Analysis
 

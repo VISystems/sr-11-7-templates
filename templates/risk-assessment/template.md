@@ -23,7 +23,7 @@ version: "1.0"
 ### 2.1 Model Risk
 - **Hallucination / confabulation:** LLMs may generate plausible but incorrect outputs. Mitigation: {{hallucination_mitigation}}
 - **Prompt injection:** Adversarial inputs may alter model behavior. Mitigation: {{injection_mitigation}}
-- **Version drift:** Anthropic model updates may change behavior. Mitigation: {{drift_mitigation}}
+- **Version drift:** {{model_provider}} model updates may change behavior. Mitigation: {{drift_mitigation}}
 
 ### 2.2 Data Risk
 - **PII exposure:** {{pii_risk}}

@@ -32,7 +32,7 @@ version: "1.0"
 
 | Trigger | Action | SLA |
 |---------|--------|-----|
-| New Claude model release | Automated migration diff via model-migration-kit | 48h analysis |
+| New {{model_family}} model release | Automated migration diff via model-migration-kit | 48h analysis |
 | Regression detected | PMO ticket auto-created, engineering review | 5 BD triage |
 | Pass-to-fail threshold breached | Immediate alert, deployment hold | Same BD |
 
@@ -43,7 +43,7 @@ version: "1.0"
 - [ ] Eval suite pass rates trended and analyzed
 - [ ] Cost trends reviewed against budget
 - [ ] Latency distribution reviewed
-- [ ] New Claude model version assessed
+- [ ] New {{model_family}} model version assessed
 - [ ] Prompt effectiveness reviewed
 - [ ] Incident log reviewed
 - [ ] Compensating control effectiveness assessed

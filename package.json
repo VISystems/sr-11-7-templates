@@ -1,6 +1,6 @@
 {
   "name": "@visystems/sr-11-7-templates",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "SR 11-7 / OCC 2011-12 model risk documentation templates for Claude deployments",
   "license": "Apache-2.0",
   "type": "module",
